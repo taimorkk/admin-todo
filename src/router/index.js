@@ -47,6 +47,7 @@ const routes = [
           {
             name: "UserData",
             path: "userdata/",
+            redirect: { name: "tasks" },
             component: UserData,
             props: true,
             children: [
